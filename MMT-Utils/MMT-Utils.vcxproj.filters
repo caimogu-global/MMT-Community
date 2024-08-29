@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="MMTLogUtils.cpp">
+      <Filter>MMTLogUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="MMTFormatUtils.cpp">
+      <Filter>MMTUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="MMTFileUtils.cpp">
+      <Filter>MMTUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="easylogging++.cc">
+      <Filter>3rdParty</Filter>
+    </ClCompile>
+    <ClCompile Include="MMTJsonUtils.cpp">
+      <Filter>MMTUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="MMTStringUtils.cpp">
+      <Filter>MMTUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="MMTTimeUtils.cpp">
+      <Filter>MMTUtils</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MMTLogUtils.h">
+      <Filter>MMTLogUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="MMTFormatUtils.h">
+      <Filter>MMTUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="MMTFileUtils.h">
+      <Filter>MMTUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="easylogging++.h">
+      <Filter>3rdParty</Filter>
+    </ClInclude>
+    <ClInclude Include="json.hpp">
+      <Filter>3rdParty</Filter>
+    </ClInclude>
+    <ClInclude Include="MMTJsonUtils.h">
+      <Filter>MMTUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="MMTStringUtils.h">
+      <Filter>MMTUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="MMTConstants.h">
+      <Filter>MMTUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="MMTTimeUtils.h">
+      <Filter>MMTUtils</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="MMTLogUtils">
+      <UniqueIdentifier>{a164786c-572b-4770-8edc-d9e9c1ba26b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MMTUtils">
+      <UniqueIdentifier>{354856a9-f8da-4e9f-b204-111d7645a67c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rdParty">
+      <UniqueIdentifier>{887852c3-80fb-49cc-90d4-eb26adc463c1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

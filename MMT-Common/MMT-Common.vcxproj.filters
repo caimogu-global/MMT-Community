@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="FrameAnalysisData.cpp">
+      <Filter>FrameAnalysis</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameAnalysisLog.cpp">
+      <Filter>FrameAnalysis</Filter>
+    </ClCompile>
+    <ClCompile Include="ConstantBufferBufFile.cpp">
+      <Filter>BufferFile</Filter>
+    </ClCompile>
+    <ClCompile Include="IndexBufferBufFile.cpp">
+      <Filter>BufferFile</Filter>
+    </ClCompile>
+    <ClCompile Include="IndexBufferTxtFile.cpp">
+      <Filter>BufferFile</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexBufferBufFile.cpp">
+      <Filter>BufferFile</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexBufferTxtFile.cpp">
+      <Filter>BufferFile</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexBufferTxtFileDetect.cpp">
+      <Filter>BufferFile</Filter>
+    </ClCompile>
+    <ClCompile Include="GlobalConfigs.cpp">
+      <Filter>Config</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawIBConfig.cpp">
+      <Filter>Config</Filter>
+    </ClCompile>
+    <ClCompile Include="FmtFile.cpp">
+      <Filter>BufferFile</Filter>
+    </ClCompile>
+    <ClCompile Include="D3d11GameType.cpp">
+      <Filter>DataType</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D11Texture.cpp">
+      <Filter>DataType</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawCall.cpp">
+      <Filter>FrameAnalysis</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureSlotReplace.cpp">
+      <Filter>DataType</Filter>
+    </ClCompile>
+    <ClCompile Include="FB_AutoGameType.cpp">
+      <Filter>Functions_Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="FB_AutoGameType_Reverse.cpp">
+      <Filter>Functions_Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="FB_InitializeGameTypeListFromConfig.cpp">
+      <Filter>Functions_Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="FB_MoveTextureFiles.cpp">
+      <Filter>Functions_Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="FB_InitializeGameTypeList.cpp">
+      <Filter>Functions_Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="FB_GenerateHashTextureIni.cpp">
+      <Filter>Functions_Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="FunctionsBasicUtils.cpp">
+      <Filter>Functions_Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="MigotoFormat.cpp">
+      <Filter>Format</Filter>
+    </ClCompile>
+    <ClCompile Include="IniBuilder.cpp">
+      <Filter>Format</Filter>
+    </ClCompile>
+    <ClCompile Include="BufferUtils_Unity.cpp">
+      <Filter>CommonUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="BufferUtils_Common.cpp">
+      <Filter>CommonUtils</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FrameAnalysisData.h">
+      <Filter>FrameAnalysis</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameAnalysisLog.h">
+      <Filter>FrameAnalysis</Filter>
+    </ClInclude>
+    <ClInclude Include="ConstantBufferBufFile.h">
+      <Filter>BufferFile</Filter>
+    </ClInclude>
+    <ClInclude Include="IndexBufferBufFile.h">
+      <Filter>BufferFile</Filter>
+    </ClInclude>
+    <ClInclude Include="IndexBufferTxtFile.h">
+      <Filter>BufferFile</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexBufferBufFile.h">
+      <Filter>BufferFile</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexBufferTxtFile.h">
+      <Filter>BufferFile</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexBufferTxtFileDetect.h">
+      <Filter>BufferFile</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalConfigs.h">
+      <Filter>Config</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawIBConfig.h">
+      <Filter>Config</Filter>
+    </ClInclude>
+    <ClInclude Include="FmtFile.h">
+      <Filter>BufferFile</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D11Texture.h">
+      <Filter>DataType</Filter>
+    </ClInclude>
+    <ClInclude Include="D3d11GameType.h">
+      <Filter>DataType</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawCall.h">
+      <Filter>FrameAnalysis</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureSlotReplace.h">
+      <Filter>DataType</Filter>
+    </ClInclude>
+    <ClInclude Include="Functions_Basic.h">
+      <Filter>Functions_Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="FunctionsBasicUtils.h">
+      <Filter>Functions_Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="MigotoFormat.h">
+      <Filter>Format</Filter>
+    </ClInclude>
+    <ClInclude Include="IniBuilder.h">
+      <Filter>Format</Filter>
+    </ClInclude>
+    <ClInclude Include="BufferUtils.h">
+      <Filter>CommonUtils</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="FrameAnalysis">
+      <UniqueIdentifier>{f6ab936e-1160-4abd-9e32-269d6e4ae472}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DataType">
+      <UniqueIdentifier>{de7af6e2-d68b-40d1-ae7d-199c58b3827e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Functions_Basic">
+      <UniqueIdentifier>{babc5da1-f06a-4a27-b316-b3c1d0e41a03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CommonUtils">
+      <UniqueIdentifier>{2e11b2de-aa84-4d38-9581-66f988c4d66f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Format">
+      <UniqueIdentifier>{2c639936-6b71-4927-95bd-823ce6ecb11f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BufferFile">
+      <UniqueIdentifier>{c7d44ccb-3fbf-4adb-b559-50841d612c13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Config">
+      <UniqueIdentifier>{4a8a0471-771b-4479-98ba-8ed02c2fcf7c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

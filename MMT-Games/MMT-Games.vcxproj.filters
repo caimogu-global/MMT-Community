@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="Functions_GI.h">
+      <Filter>Unity_VS_GI</Filter>
+    </ClInclude>
+    <ClInclude Include="Functions_SnB.h">
+      <Filter>UE4_VS_SnB</Filter>
+    </ClInclude>
+    <ClInclude Include="Functions_ToF.h">
+      <Filter>UE4_CS_ToF</Filter>
+    </ClInclude>
+    <ClInclude Include="Functions_WW.h">
+      <Filter>UE4_CS_WW</Filter>
+    </ClInclude>
+    <ClInclude Include="Functions_HI3.h">
+      <Filter>Unity_VS_HI3</Filter>
+    </ClInclude>
+    <ClInclude Include="Functions_HSR.h">
+      <Filter>Unity_VS_HSR</Filter>
+    </ClInclude>
+    <ClInclude Include="Functions_KBY.h">
+      <Filter>UE4_VS_KBY</Filter>
+    </ClInclude>
+    <ClInclude Include="Functions_WW1.1.h">
+      <Filter>UE4_VS_WW1.1</Filter>
+    </ClInclude>
+    <ClInclude Include="Functions_ZZZ.h">
+      <Filter>Unity_VS_ZZZ</Filter>
+    </ClInclude>
+    <ClInclude Include="WWUtil.h">
+      <Filter>UE4_CS_WW</Filter>
+    </ClInclude>
+    <ClInclude Include="Functions_Unity_CPU_PreSkinning.h">
+      <Filter>Unity_CPU-PreSkinning</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AutoDetectTextureFiles_GI.cpp">
+      <Filter>Unity_VS_GI</Filter>
+    </ClCompile>
+    <ClCompile Include="ExtractModel_GI.cpp">
+      <Filter>Unity_VS_GI</Filter>
+    </ClCompile>
+    <ClCompile Include="GenerateMod_GI.cpp">
+      <Filter>Unity_VS_GI</Filter>
+    </ClCompile>
+    <ClCompile Include="InitializeTextureTypeList_GI.cpp">
+      <Filter>Unity_VS_GI</Filter>
+    </ClCompile>
+    <ClCompile Include="AutoDetectTextureFiles_HI3.cpp">
+      <Filter>Unity_VS_HI3</Filter>
+    </ClCompile>
+    <ClCompile Include="AutoDetectTextureFiles_WW1.1.cpp">
+      <Filter>UE4_VS_WW1.1</Filter>
+    </ClCompile>
+    <ClCompile Include="AutoDetectTextureFiles_HSR.cpp">
+      <Filter>Unity_VS_HSR</Filter>
+    </ClCompile>
+    <ClCompile Include="AutoDetectTextureFiles_ZZZ.cpp">
+      <Filter>Unity_VS_ZZZ</Filter>
+    </ClCompile>
+    <ClCompile Include="ExtractModel_HI3.cpp">
+      <Filter>Unity_VS_HI3</Filter>
+    </ClCompile>
+    <ClCompile Include="ExtractModel_HSR.cpp">
+      <Filter>Unity_VS_HSR</Filter>
+    </ClCompile>
+    <ClCompile Include="ExtractModel_KBY.cpp">
+      <Filter>UE4_VS_KBY</Filter>
+    </ClCompile>
+    <ClCompile Include="ExtractModel_SnB.cpp">
+      <Filter>UE4_VS_SnB</Filter>
+    </ClCompile>
+    <ClCompile Include="GenerateMod_SnB.cpp">
+      <Filter>UE4_VS_SnB</Filter>
+    </ClCompile>
+    <ClCompile Include="InitializeTextureTypeList_SnB.cpp">
+      <Filter>UE4_VS_SnB</Filter>
+    </ClCompile>
+    <ClCompile Include="ExtractModel_ToF.cpp">
+      <Filter>UE4_CS_ToF</Filter>
+    </ClCompile>
+    <ClCompile Include="GenerateMod_ToF.cpp">
+      <Filter>UE4_CS_ToF</Filter>
+    </ClCompile>
+    <ClCompile Include="InitializeTextureTypeList_ToF.cpp">
+      <Filter>UE4_CS_ToF</Filter>
+    </ClCompile>
+    <ClCompile Include="ExtractModel_WW.cpp">
+      <Filter>UE4_CS_WW</Filter>
+    </ClCompile>
+    <ClCompile Include="GenerateMod_WW.cpp">
+      <Filter>UE4_CS_WW</Filter>
+    </ClCompile>
+    <ClCompile Include="InitializeTextureTypeList_WW.cpp">
+      <Filter>UE4_CS_WW</Filter>
+    </ClCompile>
+    <ClCompile Include="ExtractModel_WW1.1.cpp">
+      <Filter>UE4_VS_WW1.1</Filter>
+    </ClCompile>
+    <ClCompile Include="ExtractModel_ZZZ.cpp">
+      <Filter>Unity_VS_ZZZ</Filter>
+    </ClCompile>
+    <ClCompile Include="GenerateMod_HI3.cpp">
+      <Filter>Unity_VS_HI3</Filter>
+    </ClCompile>
+    <ClCompile Include="InitializeTextureTypeList_HI3.cpp">
+      <Filter>Unity_VS_HI3</Filter>
+    </ClCompile>
+    <ClCompile Include="GenerateMod_HSR.cpp">
+      <Filter>Unity_VS_HSR</Filter>
+    </ClCompile>
+    <ClCompile Include="InitializeTextureTypeList_HSR.cpp">
+      <Filter>Unity_VS_HSR</Filter>
+    </ClCompile>
+    <ClCompile Include="GenerateMod_KBY.cpp">
+      <Filter>UE4_VS_KBY</Filter>
+    </ClCompile>
+    <ClCompile Include="GenerateMod_WW1.1.cpp">
+      <Filter>UE4_VS_WW1.1</Filter>
+    </ClCompile>
+    <ClCompile Include="GenerateMod_ZZZ.cpp">
+      <Filter>Unity_VS_ZZZ</Filter>
+    </ClCompile>
+    <ClCompile Include="InitializeTextureTypeList_KBY.cpp">
+      <Filter>UE4_VS_KBY</Filter>
+    </ClCompile>
+    <ClCompile Include="InitializeTextureTypeList_WW11.cpp">
+      <Filter>UE4_VS_WW1.1</Filter>
+    </ClCompile>
+    <ClCompile Include="InitializeTextureTypeList_ZZZ.cpp">
+      <Filter>Unity_VS_ZZZ</Filter>
+    </ClCompile>
+    <ClCompile Include="UnityAutoDetectGameType_BufBased_GI.cpp">
+      <Filter>Unity_VS_GI</Filter>
+    </ClCompile>
+    <ClCompile Include="WWUtil.cpp">
+      <Filter>UE4_CS_WW</Filter>
+    </ClCompile>
+    <ClCompile Include="ExtractModel_Unity_CPU_PreSkinning.cpp">
+      <Filter>Unity_CPU-PreSkinning</Filter>
+    </ClCompile>
+    <ClCompile Include="GenerateMod_Unity_CPU_PreSkinning.cpp">
+      <Filter>Unity_CPU-PreSkinning</Filter>
+    </ClCompile>
+    <ClCompile Include="AutoGameType_Unity_CPU_PreSkinning.cpp">
+      <Filter>Unity_CPU-PreSkinning</Filter>
+    </ClCompile>
+    <ClCompile Include="AutoGameType_ZZZ.cpp">
+      <Filter>Unity_VS_ZZZ</Filter>
+    </ClCompile>
+    <ClCompile Include="HI3_AutoGameType.cpp">
+      <Filter>Unity_VS_HI3</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="UE4_VS_WW1.1">
+      <UniqueIdentifier>{6e26b6cf-9c78-4a79-9516-4eaca40902fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Unity_VS_HI3">
+      <UniqueIdentifier>{5b9e7521-e6e6-4431-b1a5-c6809d7d8c8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Unity_VS_ZZZ">
+      <UniqueIdentifier>{105b10d0-b14e-414e-8228-97a919fe8c95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Unity_VS_HSR">
+      <UniqueIdentifier>{14a40da4-c6bc-48c8-8a90-2ce73051c34a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Unity_VS_GI">
+      <UniqueIdentifier>{bc2e847a-9003-44f3-bc58-ace242a5081c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UE4_VS_KBY">
+      <UniqueIdentifier>{3c4e2965-4122-4a38-ac51-eb20a4c2703f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UE4_CS_ToF">
+      <UniqueIdentifier>{1e978d3b-f6a0-4181-96aa-3247219ecfdb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UE4_CS_WW">
+      <UniqueIdentifier>{66f85669-4708-4e5f-bc07-247cd6215ff2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UE4_VS_SnB">
+      <UniqueIdentifier>{7708d784-77a0-48b6-9714-5d28e8860363}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Unity_CPU-PreSkinning">
+      <UniqueIdentifier>{a8d3d285-c017-431e-96d5-fe0c6d337c30}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
